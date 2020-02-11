@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+<link rel="stylesheet" href="../css/zhuce.css"/>
+</head>
+
+<body  background="../img/background.jpg">
+    <div id="container">
+        <div id="logo">
+            <img src="../img/logo4.png" width="150px" height="79px">
+        </div>
+        <div id="logonext">
+            <p class="tip">&nbsp;&nbsp;欢迎注册</p>
+        </div>
+        <div id="middle">
+            <div id="register">
+                <form>
+                    <fieldset>
+                        <legend align="left">注册信息</legend>
+                        * 用户名：<input name="user" type="text"><br><br>
+                        * 手机号：<input name="tel" type="text"><br><br>
+                         &nbsp;性&nbsp;别：<input type="radio" name="sex" value="male" checked="checked"/>男性 <input type="radio" name="sex" value="female"/>女性<br><br>
+                         * 生日：<select name="year" style="width:70px;">
+                             <option value="请选择">请选择</option>
+                             <option value="1997">1997</option>
+                             <option value="1996">1996</option>
+                             <option value="1995">1995</option>
+                             <option value="1994">1994</option>
+                         </select>年<select name="year" style="width:70px;">
+                             <option value="请选择">请选择</option>
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                             <option value="6">6</option>
+                             <option value="7">7</option>
+                             <option value="8">8</option>
+                             <option value="9">9</option>
+                             <option value="10">10</option>
+                             <option value="11">11</option>
+                             <option value="12">12</option>
+                         </select>月<select name="year" style="width:70px;">
+                             <option value="请选择">请选择</option>
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                             <option value="6">6</option>
+                             <option value="7">7</option>
+                             <option value="8">8</option>
+                             <option value="9">9</option>
+                             <option value="10">10</option>
+                             <option value="11">11</option>
+                             <option value="12">12</option>
+                         </select>日
+                         
+                         <br><br>
+                         &nbsp;您喜欢的城市：<select name="city" style="width:100px;">
+                             <option value="请选择">请选择</option>
+                             <option value="杭州">杭州</option>
+                             <option value="上海">上海</option>
+                             <option value="台湾">台湾</option>
+                             <option value="西安">西安</option>
+                             <option value="伦敦">伦敦</option>
+                             <option value="东京">东京</option>
+                             <option value="首尔">首尔</option>
+                             <option value="其他">其他</option>
+                         </select><br><br>
+                         * 邮&nbsp;箱：<input type="text"><br><br>
+                         * 密&nbsp;码:<input type="password"><br><br>
+                         * 重新输入密码：<input type="password"><br><br>
+                         <input type="checkbox">同意会员协议，并且愿意接受旅游咨询免费信息。
+                        
+                        
+                    </fieldset><br>
+                    <center>
+                        <input type="button" value="提交" onClick="mess()">
+                        <input type="reset" value="重置">
+                    </center>
+                </form>
+            </div>
+            
+        </div>
+        
+        
+        
+    </div>
+    <script language="javascript" type="text/javascript">
+	function mess(){
+		    alert("注册成功，您将跳往登录页面！");
+			window.location.href='denglu.html';
+		}
+	</script>
+</body>
+</html>
